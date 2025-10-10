@@ -1,0 +1,27 @@
+body {
+	background: black;
+}
+* {
+	border: 1px dashed red;
+	min-height: 10px;
+}
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+.postcard-header {
+    display: flex; /* hace que h1 e img estén en una misma línea */
+    align-items: center; /* los centra verticalmente */
+}
+
+.postcard-header img {
+    width: 50px; /* ancho más pequeño */
+    height: 50px; /* altura más pequeña */
+}
+
+.postcard-header h1 {
+    width: 100%; /* empuja la imagen hacia el borde derecho */
+    margin: 0; /* elimina márgenes por defecto */
+}
